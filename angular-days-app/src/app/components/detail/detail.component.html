@@ -1,0 +1,25 @@
+<mat-card *ngIf="pokemon$ | async as pokemon" class="pokemon-item-card">
+    <mat-card-header>
+        <mat-card-title
+        ><strong># {{ pokemon.id }}:</strong> {{ pokemon.name }}</mat-card-title
+        >
+        <mat-card-subtitle
+        >{{ pokemon.types[0] }} | {{ pokemon.types[1] }}
+        </mat-card-subtitle>
+    </mat-card-header>
+    <img
+            [src]="pokemon.imageUrl"
+            alt="Photo of a Pokemon"
+            class="preview-image"
+            mat-card-image
+    />
+    <mat-card-content>
+        <ul>
+            <li>Weight: {{ pokemon.weight }}</li>
+            <li>Height: {{ pokemon.height }}</li>
+        </ul>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button routerLink="/pokemon">Back</button>
+    </mat-card-actions>
+</mat-card>

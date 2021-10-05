@@ -1,0 +1,5 @@
+<div class="container">
+    <ng-container *ngIf="pokemons$ | async as pokemons">
+        <app-list-item *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></app-list-item>
+    </ng-container>
+</div>
