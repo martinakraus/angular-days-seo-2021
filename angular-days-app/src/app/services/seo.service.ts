@@ -19,7 +19,7 @@ export class SeoService {
 
     }
 
-    updateMetaInformationForPage(pokemon?: Pokemon): void {
+    updateMetaData(pokemon?: Pokemon): void {
 
     }
 }

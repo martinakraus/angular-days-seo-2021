@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SeoService } from './services/seo.service';
 
 @Component({
     selector: 'app-root',
@@ -7,10 +6,9 @@ import { SeoService } from './services/seo.service';
     styleUrls: [ './app.component.scss' ]
 })
 export class AppComponent implements OnInit {
-    constructor(private readonly seo: SeoService) {
+    constructor() {
     }
 
     ngOnInit(): void {
-        this.seo.initDefaultMetaInformation();
     }
 }
