@@ -20,7 +20,7 @@ import { DetailComponent } from './components/detail/detail.component';
         DetailComponent
     ],
     imports: [
-        BrowserModule,
+        BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppMaterialModule,
         HttpClientModule,
         AppRoutingModule,
