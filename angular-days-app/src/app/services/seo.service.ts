@@ -1,25 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
-import { Pokemon } from '../models/Pokemon';
 
 @Injectable({
-    providedIn: 'root'
+    providedIn: 'root',
 })
 export class SeoService {
-    private readonly appTitle = 'Martinas PokeDex';
-    private readonly appDescription = 'Indigio PokeDex';
-
-    constructor(private readonly metaTagService: Meta, private readonly titleService: Title) {
+    constructor() {
     }
 
     initDefaultMetaInformation(): void {
+        // ToDo add Description and author tag
     }
 
-    setTitle(pokemon?: Pokemon): void {
-
-    }
-
-    updateMetaData(pokemon?: Pokemon): void {
-
+    setTitle(): void {
+        // ToDo set Title of page
     }
 }
