@@ -6,8 +6,10 @@ In diesem Workshop wird Ihnen Google Developer Expert Martina Kraus eine Einfüh
 
 ## Example Repo
 
-Das Grundgerüst unseres Beispielprojektes wurde bereits erstellt und ist [HIER]() zu finden.
+Das Grundgerüst unseres Beispielprojektes wurde bereits erstellt und ist [HIER](https://github.com/martinakraus/angular-days-seo-2021/tree/main/angular-days-app) zu finden.
 
 ## Exercises
 
-Sämtliche Aufgaben und Übungen des Workshops können Sie [HIER]() finden.
+Sämtliche Aufgaben und Übungen des Workshops können Sie [HIER](https://github.com/martinakraus/angular-days-seo-2021/tree/main/exercises) finden.
+
+
